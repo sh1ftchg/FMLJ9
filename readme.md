@@ -9,7 +9,7 @@ A mouthful, isn't it? That's why I called it "Shifty". This project brings bleed
 
 Checkout the repo if you want... But really, all you need is ShiftyClassLoader.java. 
 
-- Compile ShiftyClassLoader.java, use javac, or gcj, or whatever you like. Note: To compile this you need objectweb's ASM 2 added to JAVAC's classpath, it is included/required by forge figure out where it has been saved by your loader. We're not here to add more dependencies.
+- Compile ShiftyClassLoader.java, use javac, or gcj, or whatever you like. Note: To compile this you need objectweb 2's (ow2) ASM  added to JAVAC's classpath, it is included/required by forge figure out where it has been saved by your loader. We're not here to add more dependencies.
 - Add the ".class" file's location to the java classpath. Alternatively, drop them in the game directory for the mod you want to run on Java 9.
 - Add "-Djava.system.class.loader=com.sh1ftchg.java9.ShiftyClassLoader" without the quotes to your runtime arguments.
 - Add "--add-opens java.base/jdk.internal.reflect=ALL-UNNAMED" to the java virtual machine's arguments.
