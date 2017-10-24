@@ -1,6 +1,10 @@
 # Forge Mod Loader Java 9 Interop
 A mouthful, isn't it? That's why I called it "Shifty". This project brings bleeding edge java 9 to the minecraft modding masses.
 
+## UPDATE: TODO/OTHER
+- Make it easier for the plebian. Like, I made assumptions that people might not realize when I wrote the instructions: When you compile ShiftyClassLoader.java, java itself WILL look for it in the mod directory but under its package within that directory. Unless FML does something screwy to the DEFAULT java behavior... IE. <mod directory>/com/sh1ftchg/java9/ShiftyClassLoader<and its anonymous/named inners>.class
+- Discovered that @LexManos is an [anti-intellectualist](https://gist.github.com/sh1ftchg/06425b5088521cd76390fae358c57d88)? Who knew?
+
 ## Instructions
 
 Checkout the repo if you want... But really, all you need is ShiftyClassLoader.java. 
